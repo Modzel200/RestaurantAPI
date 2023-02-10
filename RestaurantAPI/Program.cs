@@ -1,3 +1,5 @@
+using RestaurantAPI.Entities;
+
 namespace RestaurantAPI
 {
     public class Program
@@ -12,11 +14,15 @@ namespace RestaurantAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            
+            builder.Services.AddDbContext<RestaurantDbContext>();
+            builder.Services.AddScoped<RestaurantSeeder>();
 
             var app = builder.Build();
-
+            var scope = app.Services.CreateScope();
+            var seeder = scope.ServiceProvider.GetRequiredService<RestaurantSeeder>();
+            seeder.Seed();
             // Configure the HTTP request pipeline.
+            
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
