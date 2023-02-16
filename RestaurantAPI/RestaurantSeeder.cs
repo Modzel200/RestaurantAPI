@@ -40,13 +40,13 @@ public class RestaurantSeeder
                     {
                         Name = "Nashville Hot Chicken",
                         Price = 10.30M,
-                        Description = "Short Description",
+                        Description = "Description",
                     },
                     new Dish()
                     {
                         Name = "Chicken Nuggets",
                         Price = 5.30M,
-                        Description = "Short Description",
+                        Description = "Description",
                     },
                 },
                 Address = new Address()
