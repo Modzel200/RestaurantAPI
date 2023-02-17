@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using NLog.Web;
 using RestaurantAPI.Entities;
 using RestaurantAPI.Services;
 
@@ -10,7 +11,10 @@ namespace RestaurantAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            //NLog: Setup NLog for Dependency injection
+            builder.Logging.ClearProviders();
+            builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+            builder.Host.UseNLog();
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddControllersWithViews()

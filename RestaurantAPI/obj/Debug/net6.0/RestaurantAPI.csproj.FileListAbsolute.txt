@@ -94,3 +94,7 @@ D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\AutoMappe
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\nlog.config
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
