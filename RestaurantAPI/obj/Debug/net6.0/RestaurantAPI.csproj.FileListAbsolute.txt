@@ -98,3 +98,7 @@ D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\nlog.conf
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.dll
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\FluentValidation.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
