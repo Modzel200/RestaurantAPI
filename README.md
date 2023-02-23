@@ -1,7 +1,7 @@
 # RestaurantAPI
 Restaurant DataBase
 
-# Required Nugget Packages 
+# Required NuGet Packages 
 Microsoft.AspNetCore.Authentication.JwtBearer
 
 Microsoft.AspNetCore.Mvc.NewtonsoftJson
