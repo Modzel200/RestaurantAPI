@@ -102,3 +102,4 @@ D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\FluentVal
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Programowanie\VS Repos\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\RestaurantAPI.staticwebassets.runtime.json

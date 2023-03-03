@@ -75,8 +75,18 @@ namespace RestaurantAPI
             builder.Services.AddScoped<IUserContextService, UserContextService>();
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("FrontEndClient", builder =>
+                    builder.AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .WithOrigins("http://localhost:8080"));
+            });
             
             var app = builder.Build();
+            app.UseResponseCaching();
+            app.UseStaticFiles();
+            app.UseCors("FrontEndClient");
             var scope = app.Services.CreateScope();
             var seeder = scope.ServiceProvider.GetRequiredService<RestaurantSeeder>();
             seeder.Seed();
