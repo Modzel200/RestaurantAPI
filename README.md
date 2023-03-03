@@ -26,3 +26,4 @@ Microsoft.EntityFrameworkCore.SqlServer.Design
 
 Microsoft.EntityFrameworkCore.Tools.DotNet
 
+Microsoft.AspNetCore.StaticFiles
